@@ -17,4 +17,3 @@ def test_get_cat_photo_unsuccess(mocker):
     mock_get.return_value.status_code = 404
     photo = get_cat_photo()
     assert photo is None
-    
